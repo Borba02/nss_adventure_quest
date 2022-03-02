@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\foals\\workspace\\nss_adventure_quest\\AdventureQuest.csproj": {}
+    "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\foals\\workspace\\nss_adventure_quest\\AdventureQuest.csproj": {
+    "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\foals\\workspace\\nss_adventure_quest\\AdventureQuest.csproj",
+        "projectUniqueName": "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj",
         "projectName": "AdventureQuest",
-        "projectPath": "C:\\Users\\foals\\workspace\\nss_adventure_quest\\AdventureQuest.csproj",
-        "packagesPath": "C:\\Users\\foals\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\foals\\workspace\\nss_adventure_quest\\obj\\",
+        "projectPath": "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj",
+        "packagesPath": "C:\\Users\\Seracrooce\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\foals\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Seracrooce\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
