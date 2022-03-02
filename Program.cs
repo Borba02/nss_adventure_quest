@@ -18,6 +18,10 @@ namespace Quest
             while (!finished)
             {
                 Challenge twoPlusTwo = new Challenge("2 + 2?", 4, 10);
+                Challenge eatAPotato = new Challenge("Do you eat potato?", 6, 20);
+                Challenge isIt = new Challenge("Is it?", 2, 10);
+                Challenge hungerGames = new Challenge("How many games?", 4, 10);
+                Challenge isThisSeven = new Challenge("Is this 7?", 7, 10);
                 Challenge theAnswer = new Challenge(
                     "What's the answer to life, the universe and everything?", 42, 25);
                 Challenge whatSecond = new Challenge(
@@ -65,14 +69,28 @@ namespace Quest
                     theAnswer,
                     whatSecond,
                     guessRandom,
-                    favoriteBeatle
+                    favoriteBeatle,
+                    eatAPotato,
+                    isIt,
+                    hungerGames,
+                    isThisSeven
                 };
 
                 // print out robe description
+                // Loop through all the challenges and subject the Adventurer to them
                 Console.WriteLine(theAdventurer.GetDescription());
 
-                // Loop through all the challenges and subject the Adventurer to them
-                foreach (Challenge challenge in challenges)
+                List<Challenge> smallChallengeList = new List<Challenge>();
+                while (smallChallengeList.Count < 5) 
+                {
+                    Challenge chosenChallenge = challenges[new Random().Next(0, challenges.Count)];
+                    if(!smallChallengeList.Contains(chosenChallenge))
+                    {
+                        smallChallengeList.Add(chosenChallenge);
+                    }
+                    
+                }
+                foreach (Challenge challenge in smallChallengeList)
                 {
                     challenge.RunChallenge(theAdventurer);
                 }

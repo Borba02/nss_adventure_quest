@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj": {}
+    "C:\\Users\\ObediahX\\workspace\\csharp\\adventure-quest\\nss_adventure_quest\\AdventureQuest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj": {
+    "C:\\Users\\ObediahX\\workspace\\csharp\\adventure-quest\\nss_adventure_quest\\AdventureQuest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj",
+        "projectUniqueName": "C:\\Users\\ObediahX\\workspace\\csharp\\adventure-quest\\nss_adventure_quest\\AdventureQuest.csproj",
         "projectName": "AdventureQuest",
-        "projectPath": "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\AdventureQuest.csproj",
-        "packagesPath": "C:\\Users\\Seracrooce\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Seracrooce\\workspace\\nss_adventure_quest\\obj\\",
+        "projectPath": "C:\\Users\\ObediahX\\workspace\\csharp\\adventure-quest\\nss_adventure_quest\\AdventureQuest.csproj",
+        "packagesPath": "C:\\Users\\ObediahX\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ObediahX\\workspace\\csharp\\adventure-quest\\nss_adventure_quest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Seracrooce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ObediahX\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
