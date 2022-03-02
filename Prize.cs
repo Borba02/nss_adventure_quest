@@ -10,6 +10,7 @@ namespace Quest
             _text = text;
         }
 
+        //method to show the prize the adventurer has recieved. Will print the same amount of times as the adventurer's awesomeness.
         public void ShowPrize(Adventurer adventurer) {
             if (adventurer.Awesomeness > 0) {
                 Console.WriteLine("You have recieved the hefty reward of: ");
