@@ -48,7 +48,12 @@ namespace Quest
                 // Make a new "Adventurer" object using the "Adventurer" class
                 Console.WriteLine("What is your Adventure name, Pleb?");
                 string adventurerName = Console.ReadLine();
-                Adventurer theAdventurer = new Adventurer(adventurerName);
+                Robe AdventurerRobe = new Robe()
+                {
+                    Length = 5,
+                    Colors = new List<string> { "red", "blue", "green" }
+                };
+                Adventurer theAdventurer = new Adventurer(adventurerName, AdventurerRobe);
 
                 // A list of challenges for the Adventurer to complete
                 // Note we can use the List class here because have the line "using System.Collections.Generic;" at the top of the file.
@@ -60,6 +65,9 @@ namespace Quest
                     guessRandom,
                     favoriteBeatle
                 };
+
+                // print out robe description
+                Console.WriteLine(theAdventurer.GetDescription());
 
                 // Loop through all the challenges and subject the Adventurer to them
                 foreach (Challenge challenge in challenges)
