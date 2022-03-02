@@ -1,0 +1,24 @@
+using System;
+
+namespace Quest
+{
+    public class Prize
+    {
+        private string _text;
+
+        public Prize(string text) {
+            _text = text;
+        }
+
+        public void ShowPrize(Adventurer adventurer) {
+            if (adventurer.Awesomeness > 0) {
+                Console.WriteLine("You have recieved the hefty reward of: ");
+                for (int i = 0; i < adventurer.Awesomeness; i++) {
+                    Console.WriteLine(_text);
+                }
+            } else {
+                Console.WriteLine("You recieve nothing. For you are pathetic. Worm.\nThis is a message of pity.");
+            }
+        }
+    }
+}
