@@ -53,7 +53,8 @@ namespace Quest
                     Length = 5,
                     Colors = new List<string> { "red", "blue", "green" }
                 };
-                Adventurer theAdventurer = new Adventurer(adventurerName, AdventurerRobe);
+                Hat adventurerHat = new Hat() { ShininessLevel = 7 };
+                Adventurer theAdventurer = new Adventurer(adventurerName, AdventurerRobe, adventurerHat);
 
                 // A list of challenges for the Adventurer to complete
                 // Note we can use the List class here because have the line "using System.Collections.Generic;" at the top of the file.
