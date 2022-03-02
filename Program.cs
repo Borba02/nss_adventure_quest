@@ -54,6 +54,7 @@ namespace Quest
                     Colors = new List<string> { "red", "blue", "green" }
                 };
                 Hat adventurerHat = new Hat() { ShininessLevel = 7 };
+                Prize adventurePrize = new Prize("A watermelon");
                 Adventurer theAdventurer = new Adventurer(adventurerName, AdventurerRobe, adventurerHat);
 
                 // A list of challenges for the Adventurer to complete
@@ -76,6 +77,8 @@ namespace Quest
                     challenge.RunChallenge(theAdventurer);
                 }
 
+                //show prizes recieved
+                adventurePrize.ShowPrize(theAdventurer);
                 // This code examines how Awesome the Adventurer is after completing the challenges
                 // And praises or humiliates them accordingly
                 if (theAdventurer.Awesomeness >= maxAwesomeness)
@@ -90,6 +93,7 @@ namespace Quest
                 {
                     Console.WriteLine("I guess you did...ok? ...sorta. Still, you should get out of my sight.");
                 }
+
 
                 //prompt the user if they wanna play again
                 Console.WriteLine("You wanna play again? (y/n)");
